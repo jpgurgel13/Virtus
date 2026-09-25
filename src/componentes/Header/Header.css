@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--cor-borda);
+}
+
+.header-simbolo {
+  width: 28px;
+  height: 28px;
+}
+
+.header-nome {
+  font-family: var(--fonte-titulo);
+  font-weight: 700;
+  font-size: 1.25rem;
+  letter-spacing: 0.18em;
+}
