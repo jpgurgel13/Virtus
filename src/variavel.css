@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap");
+:root {
+  --cor-fundo: #07090d;
+  --cor-card: #0d1117;
+  --cor-card-elevado: #141a22;
+  --cor-borda: #1a212b;
+
+  --cor-texto: #f1f5f9;
+  --cor-texto-secundario: #8b95a5;
+
+  --raio-borda: 16px;
+  --fonte-titulo: Rajdhani, system-ui, sans-serif;
+
+  color-scheme: dark;
+}

@@ -1,17 +1,4 @@
-:root {
-  --cor-fundo: #07090d;
-  --cor-card: #0d1117;
-  --cor-card-elevado: #141a22;
-  --cor-borda: #1a212b;
-
-  --cor-texto: #f1f5f9;
-  --cor-texto-secundario: #8b95a5;
-
-  --raio-borda: 16px;
-
-  color-scheme: dark;
-}
-
+@import url(./variavel.css);
 *,
 *::before,
 *::after {
@@ -38,4 +25,11 @@ textarea,
 select {
   font: inherit;
   color: inherit;
+}
+h1,
+h2,
+h3 {
+  font-family: var(--fonte-titulo);
+  font-weight: 700;
+  margin: 0;
 }
