@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Patente Elite">
+  <polygon points="22.0,50.0 3.0,43.0 7.0,51.0 22.0,56.0" fill="#A78BFA" />
+  <polygon points="98.0,50.0 117.0,43.0 113.0,51.0 98.0,56.0" fill="#A78BFA" />
+  <polygon points="21.0,60.0 4.0,58.0 8.0,65.0 21.0,66.0" fill="#A78BFA" />
+  <polygon points="99.0,60.0 116.0,58.0 112.0,65.0 99.0,66.0" fill="#A78BFA" />
+  <polygon points="60.0,20.0 94.6,40.0 94.6,80.0 60.0,100.0 25.4,80.0 25.4,40.0" fill="#A78BFA" />
+  <polygon points="60.0,25.0 90.3,42.5 90.3,77.5 60.0,95.0 29.7,77.5 29.7,42.5" fill="#0D1117" />
+  <polygon points="60.0,25.0 90.3,42.5 90.3,77.5 60.0,95.0 29.7,77.5 29.7,42.5" fill="#A78BFA" fill-opacity="0.12" />
+  <g transform="translate(40,40) scale(0.4)"><polygon points="6,10 24,10 50,42 76,10 94,10 50,64" fill="#A78BFA" />
+  <polygon points="27.2,62 38.6,62 50,76 61.4,62 72.8,62 50,90" fill="#A78BFA" />
+  </g>
+  <rect x="46.0" y="106" width="28" height="4" rx="1" fill="#A78BFA" />
+</svg>
