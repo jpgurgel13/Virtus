@@ -1,0 +1,43 @@
+warning: in the working copy of 'index.html', LF will be replaced by CRLF the next time Git touches it
+[1mdiff --git a/index.html b/index.html[m
+[1mindex cca4729..4314f56 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -8,11 +8,7 @@[m
+     <link rel="preconnect" href="https://fonts.googleapis.com" />[m
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />[m
+     <link[m
+[31m-      href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&display=swap"[m
+[31m-      rel="stylesheet"[m
+[31m-    />[m
+[31m-    <link[m
+[31m-      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Exo+2:ital,wght@0,100..900;1,100..900&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Manrope:wght@200..800&display=swap"[m
+[32m+[m[32m      href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=Barlow:wght@400;500;600&display=swap"[m
+       rel="stylesheet"[m
+     />[m
+   </head>[m
+[1mdiff --git a/src/index.css b/src/index.css[m
+[1mindex 36b062f..53a5c69 100644[m
+[1m--- a/src/index.css[m
+[1m+++ b/src/index.css[m
+[36m@@ -9,7 +9,7 @@[m [mbody {[m
+   min-height: 100dvh;[m
+   background: var(--cor-fundo);[m
+   color: var(--cor-texto);[m
+[31m-  font-family: system-ui, sans-serif;[m
+[32m+[m[32m  font-family: var(--fonte-texto);[m
+   line-height: 1.5;[m
+ }[m
+ [m
+[1mdiff --git a/src/variavel.css b/src/variavel.css[m
+[1mindex e3ace93..5381a7d 100644[m
+[1m--- a/src/variavel.css[m
+[1m+++ b/src/variavel.css[m
+[36m@@ -9,6 +9,6 @@[m
+ [m
+   --raio-borda: 16px;[m
+   --fonte-titulo: Rajdhani, system-ui, sans-serif;[m
+[31m-  --fonte-segundaria: Barlow, sans-serif;[m
+[32m+[m[32m  --fonte-texto: Barlow, system-ui, sans-serif;[m
+   color-scheme: dark;[m
+ }[m

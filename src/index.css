@@ -9,7 +9,7 @@ body {
   min-height: 100dvh;
   background: var(--cor-fundo);
   color: var(--cor-texto);
-  font-family: system-ui, sans-serif;
+  font-family: var(--fonte-texto);
   line-height: 1.5;
 }
 
