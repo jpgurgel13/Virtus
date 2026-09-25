@@ -1,0 +1,41 @@
+:root {
+  --cor-fundo: #07090d;
+  --cor-card: #0d1117;
+  --cor-card-elevado: #141a22;
+  --cor-borda: #1a212b;
+
+  --cor-texto: #f1f5f9;
+  --cor-texto-secundario: #8b95a5;
+
+  --raio-borda: 16px;
+
+  color-scheme: dark;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  min-height: 100dvh;
+  background: var(--cor-fundo);
+  color: var(--cor-texto);
+  font-family: system-ui, sans-serif;
+  line-height: 1.5;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+}
